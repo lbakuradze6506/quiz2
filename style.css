@@ -1,0 +1,111 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+    padding: 30px;
+    background: #f2efe8;
+    color: #1e2936;
+    font-family: Georgia, serif;
+    line-height: 1.65;
+}
+
+.card {
+    max-width: 755px;
+    margin-bottom: 18px;
+    padding: 18px;
+    background: #fffdfa;
+    border: 1px solid #d4d1ce;
+    border-radius: 9px;
+}
+
+.quiz-label {
+    color: #0e6560;
+    font-size: .77rem;
+    text-transform: uppercase;
+    letter-spacing: .09em;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+h1 { font-size: 1.95rem; color: #111728; margin-bottom: 11px; }
+h2 { font-size: 1.2rem; color: #111728; margin-bottom: 11px; }
+p, li { color: #4a5462; font-size: .98rem; }
+li { margin-bottom: 7px; }
+
+a { color: #0e6560; }
+a:hover { color: #0d7068; }
+
+.highlight { background: #fce97f; color: #1e2936; padding: 0 4px; }
+
+.blockquote-callout {
+    margin: 14px 0;
+    padding: 11px 14px;
+    border-left: 4px solid #663f02;
+    background: #fff6e4;
+    color: #7a2c10;
+}
+
+ul { padding-left: 22px; }
+
+.badge {
+    padding: 3px 9px;
+    border: 1px solid #5b0cee;
+    border-radius: 999px;
+    background: #fcfcfc;
+    color: #000000;
+    font-size: .81rem;
+    margin-right: 5px;
+}
+
+.btn-11 {
+    padding: 9px 16px;
+    border: 1px solid #160f77;
+    border-radius: 7px;
+    background: #6af8ec;
+    color: #000000;
+    cursor: pointer;
+    margin-right: 8px;
+    font: inherit;
+    transition: background 0.2s;
+}
+.btn-11:hover { background: #0e6560; }
+
+.btn-12 {
+    padding: 9px 16px;
+    border: 1px solid #420e96;
+    border-radius: 7px;
+    background: #6af8ec;
+    color: #000000;
+    cursor: pointer;
+    font: inherit;
+    transition: background 0.2s;
+}
+.btn-12:hover { background: #edfcfa; }
+
+label { display: block; font-weight: 600; color: #111728; margin-bottom: 7px; }
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px 11px;
+    border: 1px solid #000000;
+    border-radius: 7px;
+    background: #ffffff;
+    color: #000000;
+    font: inherit;
+    margin-bottom: 13px;
+}
+input:focus, select:focus, textarea:focus {
+    border-color: #92fa9a;
+    outline: 2px solid #092924;
+    outline-offset: 1px;
+}
+textarea { height: 112px; resize: vertical; }
+
+table { width: 100%; border-collapse: collapse; border: 1px solid #d4d1ce; background: #fff; }
+th, td { border: 1px solid #d4d1ce; padding: 9px 11px; text-align: left; }
+thead th { background: #e8feff; color: #111728; }
+
+details summary { cursor: pointer; font-weight: 700; color: #111728; list-style: none; }
+details summary::before { content: "▶ "; }
+details[open] summary::before { content: "▼ "; }
+
+.card-footer p { color: #6a7180; font-size: .91rem; }
